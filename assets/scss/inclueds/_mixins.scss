@@ -1,0 +1,21 @@
+@mixin less-than--pc() {
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
+@mixin less-than--tablet() {
+    @media only screen and (max-width: 991px) {
+        @content;
+    }
+}
+@mixin less-than--sp() {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin less-than--mini() {
+    @media only screen and (max-width: 374px) {
+        @content;
+    }
+}
