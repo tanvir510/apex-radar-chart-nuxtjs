@@ -1,4 +1,4 @@
-# nuxt-test
+# apex-radar-chart-nuxtjs
 
 ## Build Setup
 
@@ -13,12 +13,12 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
+# generate static project
+$ npm run generate
+
 # Apex chart install command
 $ npm install --save apexcharts
 $ npm install --save vue-apexcharts
 
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
